@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "optimization-or-tools"
+version = "0.1.0"
+description = ""
+authors = ["Evgeny Chernyshov <evgeny.chernyshov@hkeeper.global>"]
+readme = "README.md"
+packages = [{include = "optimization_or_tools"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+ortools = "^9.6.2534"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
